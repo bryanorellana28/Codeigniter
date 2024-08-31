@@ -1,36 +1,35 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title><?= isset($router) ? 'Editar Router' : 'Agregar Router' ?></title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Router</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
 <body>
-<div class="container">
-    <h1><?= isset($router) ? 'Editar Router' : 'Agregar Router' ?></h1>
-
-    <form action="<?= isset($router) ? '/routers/update/'.$router['Hostname'] : '/routers/store' ?>" method="post">
-        <div class="form-group">
-            <label for="hostname">Hostname</label>
-            <input type="text" class="form-control" id="hostname" name="hostname" value="<?= isset($router) ? $router['Hostname'] : '' ?>" <?= isset($router) ? 'readonly' : '' ?> required>
+<div class="container mt-5">
+    <h2>Editar Router</h2>
+    
+    <form action="<?= site_url('routers/update/'.$router['id']) ?>" method="post">
+        <div class="mb-3">
+            <label for="hostname" class="form-label">Hostname</label>
+            <input type="text" class="form-control" id="hostname" name="hostname" value="<?= $router['hostname'] ?>" required>
         </div>
-        <div class="form-group">
-            <label for="ip">IP</label>
-            <input type="text" class="form-control" id="ip" name="ip" value="<?= isset($router) ? $router['IP'] : '' ?>" required>
+        <div class="mb-3">
+            <label for="ip" class="form-label">IP</label>
+            <input type="text" class="form-control" id="ip" name="ip" value="<?= $router['ip'] ?>" required>
         </div>
-        <div class="form-group">
-            <label for="descripcion">Descripción</label>
-            <input type="text" class="form-control" id="descripcion" name="descripcion" value="<?= isset($router) ? $router['Descripcion'] : '' ?>" required>
+        <div class="mb-3">
+            <label for="descripcion" class="form-label">Descripción</label>
+            <input type="text" class="form-control" id="descripcion" name="descripcion" value="<?= $router['descripcion'] ?>">
         </div>
-        <div class="form-group">
-            <label for="metodo_acceso">Método de Acceso</label>
-            <input type="text" class="form-control" id="metodo_acceso" name="metodo_acceso" value="<?= isset($router) ? $router['Metodo_de_acceso'] : '' ?>" required>
+        <div class="mb-3">
+            <label for="metodo_acceso" class="form-label">Método de Acceso</label>
+            <input type="text" class="form-control" id="metodo_acceso" name="metodo_acceso" value="<?= $router['metodo_acceso'] ?>" required>
         </div>
-        <button type="submit" class="btn btn-success"><?= isset($router) ? 'Actualizar' : 'Agregar' ?></button>
+        <button type="submit" class="btn btn-primary">Actualizar</button>
+        <a href="<?= site_url('routers') ?>" class="btn btn-secondary">Cancelar</a>
     </form>
 </div>
-
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

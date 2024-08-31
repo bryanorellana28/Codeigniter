@@ -30,13 +30,15 @@ $routes->setAutoRoute(false);
  * --------------------------------------------------------------------
  */
 
-$routes->get('/', 'RouterController::index');
-$routes->get('routers', 'RouterController::index');
-$routes->get('routers/create', 'RouterController::create');
-$routes->post('routers/store', 'RouterController::store');
-$routes->get('routers/edit/(:segment)', 'RouterController::edit/$1');
-$routes->post('routers/update/(:segment)', 'RouterController::update/$1');
-$routes->get('routers/delete/(:segment)', 'RouterController::delete/$1');
+ $routes->get('/', 'RouterController::index');
+ $routes->get('routers', 'RouterController::index');
+ $routes->get('routers/create', 'RouterController::create');
+ $routes->post('routers/store', 'RouterController::store');
+ $routes->get('routers/edit/(:num)', 'RouterController::edit/$1');
+ $routes->post('routers/update/(:num)', 'RouterController::update/$1');
+ $routes->get('routers/delete/(:num)', 'RouterController::delete/$1');
+ 
+ 
 
 /*
  * --------------------------------------------------------------------

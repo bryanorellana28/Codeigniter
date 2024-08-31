@@ -11,5 +11,9 @@ class RouterModel extends Model
 
     protected $allowedFields = ['Hostname', 'IP', 'Descripcion', 'Metodo_de_acceso'];
 
-    // Configuración adicional si es necesario
+    protected $validationRules = [
+        'hostname' => 'required|min_length[3]',
+        'ip' => 'required|valid_ip',
+        'metodo_acceso' => 'required',
+    ];
 }

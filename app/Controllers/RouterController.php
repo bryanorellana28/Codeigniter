@@ -11,7 +11,6 @@ class RouterController extends Controller
     {
         $model = new RouterModel();
         $data['routers'] = $model->findAll();
-
         return view('routers/index', $data);
     }
 
@@ -25,45 +24,53 @@ class RouterController extends Controller
         $model = new RouterModel();
 
         $data = [
-            'Hostname'       => $this->request->getPost('hostname'),
-            'IP'             => $this->request->getPost('ip'),
-            'Descripcion'    => $this->request->getPost('descripcion'),
-            'Metodo_de_acceso' => $this->request->getPost('metodo_acceso')
+            'hostname' => $this->request->getPost('hostname'),
+            'ip' => $this->request->getPost('ip'),
+            'descripcion' => $this->request->getPost('descripcion'),
+            'metodo_acceso' => $this->request->getPost('metodo_acceso'),
         ];
 
-        $model->insert($data);
-
-        return redirect()->to('/routers')->with('success', 'Router agregado exitosamente.');
+        if ($model->insert($data)) {
+            return redirect()->to('/routers')->with('success', 'Router agregado con éxito');
+        } else {
+            return redirect()->back()->withInput()->with('error', 'Error al agregar el router');
+        }
     }
 
-    public function edit($hostname)
+    public function edit($id)
     {
         $model = new RouterModel();
-        $data['router'] = $model->find($hostname);
+        $data['router'] = $model->find($id);
 
         return view('routers/edit', $data);
     }
 
-    public function update($hostname)
+    public function update($id)
     {
         $model = new RouterModel();
 
         $data = [
-            'IP'             => $this->request->getPost('ip'),
-            'Descripcion'    => $this->request->getPost('descripcion'),
-            'Metodo_de_acceso' => $this->request->getPost('metodo_acceso')
+            'hostname' => $this->request->getPost('hostname'),
+            'ip' => $this->request->getPost('ip'),
+            'descripcion' => $this->request->getPost('descripcion'),
+            'metodo_acceso' => $this->request->getPost('metodo_acceso'),
         ];
 
-        $model->update($hostname, $data);
-
-        return redirect()->to('/routers')->with('success', 'Router actualizado exitosamente.');
+        if ($model->update($id, $data)) {
+            return redirect()->to('/routers')->with('success', 'Router actualizado con éxito');
+        } else {
+            return redirect()->back()->withInput()->with('error', 'Error al actualizar el router');
+        }
     }
 
-    public function delete($hostname)
+    public function delete($id)
     {
         $model = new RouterModel();
-        $model->delete($hostname);
 
-        return redirect()->to('/routers')->with('success', 'Router eliminado exitosamente.');
+        if ($model->delete($id)) {
+            return redirect()->to('/routers')->with('success', 'Router eliminado con éxito');
+        } else {
+            return redirect()->back()->with('error', 'Error al eliminar el router');
+        }
     }
 }
