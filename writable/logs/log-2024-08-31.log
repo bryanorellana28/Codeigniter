@@ -1,0 +1,219 @@
+CRITICAL - 2024-08-31 06:35:53 --> Error: Class "App\Models\RouterModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\RouterController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RouterController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RouterController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tarea\\public\\index.php')
+CRITICAL - 2024-08-31 06:36:31 --> Error: Class "App\Models\RouterModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\RouterController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RouterController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RouterController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tarea\\public\\index.php')
+CRITICAL - 2024-08-31 06:36:31 --> Error: Class "App\Models\RouterModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\RouterController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RouterController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RouterController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tarea\\public\\index.php')
+CRITICAL - 2024-08-31 06:36:45 --> Error: Class "App\Models\RouterModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\RouterController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RouterController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RouterController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tarea\\public\\index.php')
+CRITICAL - 2024-08-31 06:36:46 --> Error: Class "App\Models\RouterModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\RouterController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RouterController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RouterController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tarea\\public\\index.php')
+CRITICAL - 2024-08-31 06:37:28 --> Error: Class "App\Models\RouterModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\RouterController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RouterController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RouterController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tarea\\public\\index.php')
+CRITICAL - 2024-08-31 06:37:30 --> Error: Class "App\Models\RouterModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\RouterController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RouterController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RouterController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tarea\\public\\index.php')
+CRITICAL - 2024-08-31 06:37:30 --> Error: Class "App\Models\RouterModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\RouterController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RouterController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RouterController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tarea\\public\\index.php')
+CRITICAL - 2024-08-31 06:37:31 --> Error: Class "App\Models\RouterModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\RouterController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RouterController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RouterController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tarea\\public\\index.php')
+CRITICAL - 2024-08-31 06:38:09 --> Error: Class "App\Models\RouterModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\RouterController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RouterController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RouterController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-31 06:38:55 --> Error: Class "App\Models\RouterModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\RouterController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RouterController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RouterController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tarea\\public\\index.php')
+CRITICAL - 2024-08-31 06:38:56 --> Error: Class "App\Models\RouterModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\RouterController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RouterController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RouterController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tarea\\public\\index.php')
+CRITICAL - 2024-08-31 06:38:57 --> Error: Class "App\Models\RouterModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\RouterController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RouterController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RouterController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tarea\\public\\index.php')
+CRITICAL - 2024-08-31 06:38:59 --> Error: Class "App\Models\RouterModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\RouterController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RouterController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RouterController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tarea\\public\\index.php')
+CRITICAL - 2024-08-31 06:40:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "routers/create.php"
+[Method: GET, Route: routers/create]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('routers/create.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('routers/create', [], true)
+ 3 APPPATH\Controllers\RouterController.php(20): view('routers/create')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RouterController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RouterController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tarea\\public\\index.php')
+CRITICAL - 2024-08-31 06:40:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "routers/create.php"
+[Method: GET, Route: routers/create]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('routers/create.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('routers/create', [], true)
+ 3 APPPATH\Controllers\RouterController.php(20): view('routers/create')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RouterController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RouterController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\tarea\\public\\index.php')
+ERROR - 2024-08-31 06:42:19 --> mysqli_sql_exception: Unknown column 'Metodo_de_acceso' in 'field list' in C:\xampp\htdocs\tarea\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\tarea\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ro...', 0)
+#1 C:\xampp\htdocs\tarea\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ro...')
+#2 C:\xampp\htdocs\tarea\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ro...')
+#3 C:\xampp\htdocs\tarea\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ro...', Array, false)
+#4 C:\xampp\htdocs\tarea\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\tarea\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\tarea\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\tarea\app\Controllers\RouterController.php(34): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\tarea\system\CodeIgniter.php(933): App\Controllers\RouterController->store()
+#9 C:\xampp\htdocs\tarea\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RouterController))
+#10 C:\xampp\htdocs\tarea\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tarea\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\tarea\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\tarea\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\tarea\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2024-08-31 06:42:29 --> mysqli_sql_exception: Unknown column 'Metodo_de_acceso' in 'field list' in C:\xampp\htdocs\tarea\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\tarea\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ro...', 0)
+#1 C:\xampp\htdocs\tarea\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ro...')
+#2 C:\xampp\htdocs\tarea\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ro...')
+#3 C:\xampp\htdocs\tarea\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ro...', Array, false)
+#4 C:\xampp\htdocs\tarea\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\tarea\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\tarea\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\tarea\app\Controllers\RouterController.php(34): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\tarea\system\CodeIgniter.php(933): App\Controllers\RouterController->store()
+#9 C:\xampp\htdocs\tarea\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RouterController))
+#10 C:\xampp\htdocs\tarea\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tarea\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\tarea\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\tarea\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\tarea\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2024-08-31 06:42:58 --> mysqli_sql_exception: Unknown column 'Metodo_de_acceso' in 'field list' in C:\xampp\htdocs\tarea\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\tarea\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ro...', 0)
+#1 C:\xampp\htdocs\tarea\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ro...')
+#2 C:\xampp\htdocs\tarea\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ro...')
+#3 C:\xampp\htdocs\tarea\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ro...', Array, false)
+#4 C:\xampp\htdocs\tarea\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\tarea\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\tarea\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\tarea\app\Controllers\RouterController.php(34): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\tarea\system\CodeIgniter.php(933): App\Controllers\RouterController->store()
+#9 C:\xampp\htdocs\tarea\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RouterController))
+#10 C:\xampp\htdocs\tarea\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tarea\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\tarea\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\tarea\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\tarea\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
